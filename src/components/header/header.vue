@@ -137,7 +137,7 @@ export default {
 						margin-bottom: 10px
 						line-height: 12px
 						font-size: 12px
-				.supports
+				.support
 					.icon
 						display: inline-block
 						width: 12px

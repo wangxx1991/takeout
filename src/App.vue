@@ -8,13 +8,14 @@
       <div class="tab-item">
         <router-link to="/ratings">评论</router-link>
         <!-- <a v-link="{path:'/ratings'}">评论</a> -->
+        <!-- <a v-link="{path:'/ratings'}">评论</a> -->
       </div>
       <div class="tab-item">
         <router-link to="/seller">商家</router-link>
         <!-- <a v-link="{path:'/seller'}">商家</a> -->
       </div>
     </div>
-    <router-view></router-view>
+    <router-view :seller="seller"></router-view>
   </div>
 </template>
  
